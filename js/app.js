@@ -10,6 +10,18 @@ class Hero {
   }
 
   handleInput(input) {
+    if (input === 'left') {
+      this.x -= 101;
+    }
+    else if (input === 'up') {
+      this.y -= 83;
+    }
+    else if (input === 'right') {
+      this.x += 101;
+    }
+    else if (input === 'down') {
+      this.y += 83;
+    }
   }
 }
 
