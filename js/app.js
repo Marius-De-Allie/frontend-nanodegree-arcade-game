@@ -1,7 +1,7 @@
 class Hero {
   constructor() {
     this.x = 202;
-    this.y = 166;
+    this.y = 415;
     this.sprite = 'images/char-boy.png';
   }
 
