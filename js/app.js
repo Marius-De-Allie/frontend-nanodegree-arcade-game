@@ -26,8 +26,7 @@ class Hero {
 }
 
 // Enemies our player must avoid
-class Enemy {
-  Constructor() {
+function Enemy() {
     this.x = 0;
     this.y = 0;
     this.sprite = 'images/enemy-bug.png';
@@ -45,8 +44,6 @@ class Enemy {
   Enemy.prototype.render = function() {
       ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
   };
-
-}
 
 // Now write your own player class
 // This class requires an update(), render() and
