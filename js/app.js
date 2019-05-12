@@ -59,9 +59,13 @@ class Enemy {
 const player = new Hero();
 let allEnemies = [];
 const enemy1= new Enemy();
+allEnemies.push(enemy1);
 const enemy2= new Enemy();
+allEnemies.push(enemy2);
 const enemy3= new Enemy();
+allEnemies.push(enemy3);
 const enemy4= new Enemy();
+allEnemies.push(enemy4);
 
 
 // This listens for key presses and sends the keys to your
