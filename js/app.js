@@ -5,6 +5,9 @@ class Hero {
     this.sprite = 'images/char-boy.png';
   }
 
+  render() {
+    ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
+  }
 }
 
 // Enemies our player must avoid
