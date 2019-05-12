@@ -14,6 +14,9 @@ function Enemy() {
       if(this.x < 505) {
         this.x += 200 * dt;
       }
+      else {
+        this.x = -1;
+      }
   };
 
   // Draw the enemy on the screen, required method for game
