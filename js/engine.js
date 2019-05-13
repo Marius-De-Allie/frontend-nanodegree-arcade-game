@@ -59,7 +59,9 @@ var Engine = (function(global) {
         if (player.win === true) {
           win.cancelAnimationFrame(requestId)
         }
-        requestId = win.requestAnimationFrame(main);
+        else {
+          requestId = win.requestAnimationFrame(main);
+        }
     }
 
     /* This function does some initial setup that should only occur once,
