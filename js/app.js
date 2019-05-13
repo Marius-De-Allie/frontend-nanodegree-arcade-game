@@ -3,6 +3,7 @@ function Enemy(x, y) {
     this.x = x;
     this.y = y + 55;
     this.sprite = 'images/enemy-bug.png';
+    this.enemySpeed = speed; 
   };
 
   // Update the enemy's position, required method for game
