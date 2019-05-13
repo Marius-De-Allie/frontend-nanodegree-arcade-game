@@ -1,9 +1,9 @@
 // Enemies our player must avoid
-function Enemy(x, y) {
+function Enemy(x, y, speed) {
     this.x = x;
     this.y = y + 55;
     this.sprite = 'images/enemy-bug.png';
-    this.enemySpeed = speed; 
+    this.enemySpeed = speed;
   };
 
   // Update the enemy's position, required method for game
