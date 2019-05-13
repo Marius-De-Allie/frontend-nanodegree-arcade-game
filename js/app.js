@@ -62,6 +62,11 @@ class Hero {
         }
     }
   }
+
+  reset() {
+    this.x = 202;
+    this.y = 415;
+  }
 }
 
 // Now instantiate your objects.
