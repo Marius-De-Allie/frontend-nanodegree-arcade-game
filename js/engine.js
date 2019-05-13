@@ -23,6 +23,7 @@ var Engine = (function(global) {
         canvas = doc.createElement('canvas'),
         ctx = canvas.getContext('2d'),
         lastTime;
+        requestId;
 
     canvas.width = 505;
     canvas.height = 606;
@@ -56,7 +57,7 @@ var Engine = (function(global) {
          * function again as soon as the browser is able to draw another frame.
          */
         if (player.win === true) {
-          console.log('You won. Game over.')  
+          console.log('You won. Game over.')
         }
         win.requestAnimationFrame(main);
     }
