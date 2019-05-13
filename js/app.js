@@ -56,7 +56,7 @@ class Hero {
 
   reset() {
     this.x = 202;
-    this.y = 415;
+    this.y = 387;
   }
 
   update() {
