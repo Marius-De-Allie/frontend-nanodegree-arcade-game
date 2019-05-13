@@ -54,18 +54,19 @@ class Hero {
     }
   }
 
+  reset() {
+    this.x = 202;
+    this.y = 415;
+  }
+
   update() {
     for(let currentEnemy of allEnemies) {
       if (this.y === currentEnemy.y && (currentEnemy.x + 50.5 > this.x &&
         currentEnemy.x < this.x + 50.5)) {
-          console.log('reset game');
+          this.reset();
+          console.log('game reset');
         }
     }
-  }
-
-  reset() {
-    this.x = 202;
-    this.y = 415;
   }
 }
 
