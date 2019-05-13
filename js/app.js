@@ -31,7 +31,7 @@ function Enemy(x, y, speed) {
 class Hero {
   constructor() {
     this.x = 202;
-    this.y = 415;
+    this.y = 387;
     this.sprite = 'images/char-boy.png';
   }
 
