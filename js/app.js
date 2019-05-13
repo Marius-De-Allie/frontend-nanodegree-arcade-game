@@ -59,13 +59,13 @@ class Hero {
 // Place the player object in a variable called player
 const player = new Hero();
 let allEnemies = [];
-const enemy1= new Enemy();
+const enemy1= new Enemy(-101, 83);
 allEnemies.push(enemy1);
-const enemy2= new Enemy();
+const enemy2= new Enemy(-202, 0);
 allEnemies.push(enemy2);
-const enemy3= new Enemy();
+const enemy3= new Enemy(-202, 166);
 allEnemies.push(enemy3);
-const enemy4= new Enemy();
+const enemy4= new Enemy(303, 0);
 allEnemies.push(enemy4);
 
 
