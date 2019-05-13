@@ -13,7 +13,7 @@ function Enemy(x, y, speed) {
       // which will ensure the game runs at the same speed for
       // all computers.
       if(this.x < 505) {
-        this.x += 200 * dt;
+        this.x += this.enemySpeed * dt;
       }
       else {
         this.x = -1;
