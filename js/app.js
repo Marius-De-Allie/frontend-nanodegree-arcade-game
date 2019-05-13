@@ -67,6 +67,8 @@ class Hero {
           this.reset();
         }
     }
+    if(this.y === 55) {
+    }
   }
 }
 
