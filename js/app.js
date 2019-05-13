@@ -49,7 +49,7 @@ class Hero {
     else if (input === 'right' && this.x < 404) {
       this.x += 101;
     }
-    else if (input === 'down' && this.y < 415) {
+    else if (input === 'down' && this.y < 387) {
       this.y += 83;
     }
   }
