@@ -59,7 +59,7 @@ var Engine = (function(global) {
         if (player.win === true) {
           console.log('You won. Game over.')
         }
-        win.requestAnimationFrame(main);
+        requestId = win.requestAnimationFrame(main);
     }
 
     /* This function does some initial setup that should only occur once,
