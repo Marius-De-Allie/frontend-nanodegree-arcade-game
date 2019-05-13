@@ -53,6 +53,10 @@ class Hero {
       this.y += 83;
     }
   }
+
+  update() {
+    
+  }
 }
 
 // Now instantiate your objects.
