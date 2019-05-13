@@ -68,6 +68,7 @@ class Hero {
         }
     }
     if(this.y === 55) {
+      this.win = true;
     }
   }
 }
