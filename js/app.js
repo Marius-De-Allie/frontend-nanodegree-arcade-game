@@ -64,7 +64,6 @@ class Hero {
       if (this.y === currentEnemy.y && (currentEnemy.x + 50.5 > this.x &&
         currentEnemy.x < this.x + 50.5)) {
           this.reset();
-          console.log('game reset');
         }
     }
   }
