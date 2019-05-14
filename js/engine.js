@@ -30,7 +30,7 @@ var Engine = (function(global) {
     doc.body.appendChild(canvas);
     const gameEndModal = document.querySelector('.modal')
     const replayButton = document.querySelector('#restart_button');
-    
+
     /* This function serves as the kickoff point for the game loop itself
      * and handles properly calling the update and render methods.
      */
@@ -59,7 +59,8 @@ var Engine = (function(global) {
          * function again as soon as the browser is able to draw another frame.
          */
         if (player.win === true) {
-          win.cancelAnimationFrame(requestId)
+          win.cancelAnimationFrame(requestId);
+          modal.classList.toggle('hidden');
         }
         else {
           requestId = win.requestAnimationFrame(main);
