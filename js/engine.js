@@ -31,6 +31,13 @@ var Engine = (function(global) {
     const gameEndModal = document.querySelector('.modal')
     const replayButton = document.querySelector('#restart_button');
 
+    replayButton.addEventListener('click', function newGame() {
+      modal.classList.toggle('hidden');
+      player.reset();
+      player.win = false;
+      win.requestAnimationFrame(main);
+    });
+
     /* This function serves as the kickoff point for the game loop itself
      * and handles properly calling the update and render methods.
      */
