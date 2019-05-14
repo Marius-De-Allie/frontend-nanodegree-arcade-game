@@ -29,7 +29,8 @@ var Engine = (function(global) {
     canvas.height = 606;
     doc.body.appendChild(canvas);
     const gameEndModal = document.querySelector('.modal')
-
+    const replayButton = document.querySelector('#restart_button');
+    
     /* This function serves as the kickoff point for the game loop itself
      * and handles properly calling the update and render methods.
      */
