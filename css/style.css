@@ -1,3 +1,54 @@
 body {
     text-align: center;
 }
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal_content {
+  position: relative;
+  transform: translate(-50%, -30%);
+  width: 450px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  background: white;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  height: 50px;
+}
+
+#header_text {
+  text-align: center;
+  width: 100%;
+  font-family: cursive, arial, sans-serif;
+  margin-left: 0.5rem;
+  color: green;
+}
+
+.modal_button {
+  margin-top: 10rem;
+}
+
+#button_text {
+  color: green;
+}
+
+#button_text:hover {
+  color:red;
+}
