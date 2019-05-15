@@ -11,11 +11,11 @@
 - Game may be downloaded from [my GitHub repository](https://github.com/spectre4300s/frontend-nanodegree-arcade-game)
 - Once downloaded, ensure compressed file is extracted to one folder.
 - Extracted folder should contain:
- - an `images` folder, containing all in game images.
- - a `css` folder, containing game's stylesheet.
- - a `js` folder, containing 3 **JavaScript** files that provides game functionality/interactivity.
- - an `index.html` file, which provides the page structure and content.
- - a `README.md` file, which provides instructions on how to launch and play the game.
+ 1. an `images` folder, containing all in game images.
+ 2. a `css` folder, containing game's stylesheet.
+ 3. a `js` folder, containing 3 **JavaScript** files that provides game functionality/interactivity.
+ 4. an `index.html` file, which provides the page structure and content.
+ 5. a `README.md` file, which provides instructions on how to launch and play the game.
 - Within game folder open `index.html` file in your web browser to load game engine
 
 ###Gameplay Instructions
