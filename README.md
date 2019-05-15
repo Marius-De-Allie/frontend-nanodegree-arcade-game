@@ -7,7 +7,7 @@
 
 ## Instructions
 
-###How to run Game
+### How to run Game
 - Game may be downloaded from [my GitHub repository](https://github.com/spectre4300s/frontend-nanodegree-arcade-game)
 - Once downloaded, ensure compressed file is extracted to one folder.
 - Extracted folder should contain:
@@ -18,7 +18,7 @@
  5. a `README.md` file, which provides instructions on how to launch and play the game.
 - Within game folder open `index.html` file in your web browser to load game engine
 
-###Gameplay Instructions
+### Gameplay Instructions
 - When the game begins, your player character is at the bottom center of the game board _(grass area)_.
 - There are enemy characters _(bugs)_ moving horizontally across the game board from left edge to right edge.
 - Your objective is to reach the top _(water)_ area of the game board with your player character, moving vertically while avoiding collisions with the enemy _(bug)_ objects as they go horizontally across the game board.
