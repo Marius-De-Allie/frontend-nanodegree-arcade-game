@@ -28,13 +28,15 @@ const Engine = (function(global) {
     canvas.width = 505;
     canvas.height = 606;
     doc.body.appendChild(canvas);
+    // Retrieve modal element from DOM and assign to variable
     const gameEndModal = document.querySelector('.modal')
+    // Retrieve modal replay button element from DOM and assign to variable
     const replayButton = document.querySelector('#restart_button');
-
+    // Click event listener on modal replay button
     replayButton.addEventListener('click', function newGame() {
-      modal.classList.toggle('hidden');
-      player.reset();
-      player.win = false;
+      modal.classList.toggle('hidden'); // toggle 'hidden' class off
+      player.reset(); // reset player and enemy objects xy coordinates
+      player.win = false; // reset player win property value to false
       win.requestAnimationFrame(main);
     });
 
@@ -65,11 +67,11 @@ const Engine = (function(global) {
         /* Use the browser's requestAnimationFrame function to call this
          * function again as soon as the browser is able to draw another frame.
          */
-        if (player.win === true) {
-          win.cancelAnimationFrame(requestId);
-          modal.classList.toggle('hidden');
-        }
-        else {
+        if (player.win === true) { // check that win property value is true
+          win.cancelAnimationFrame(requestId); // stop game animation
+          modal.classList.toggle('hidden'); // toggle modal hidden class off
+        }                                   // to show game over modal
+        else { //if win property value is false go ot next frame (game continues)
           requestId = win.requestAnimationFrame(main);
         }
     }
