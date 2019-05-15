@@ -83,10 +83,10 @@ class Hero {
 const player = new Hero(); // Instantiate Hero your object
 let allEnemies = []; // Declare empty array to hold enemy objects
 // Instantiate enemy objects with x, y and speed arguments passed into constructor
-const enemy1= new Enemy(-101, 83, 300);
-const enemy2= new Enemy(-202, 0, 225);
-const enemy3= new Enemy(-202, 166, 350);
-const enemy4= new Enemy(303, 0, 200);
+const enemy1= new Enemy(-1, 83, 200);
+const enemy2= new Enemy(-505, 0, 250);
+const enemy3= new Enemy(-303, 166, 200);
+const enemy4= new Enemy(-808, 0, 250);
 // Append enemy objects to allEnemies array
 allEnemies.push(enemy1, enemy2, enemy3, enemy4);
 
