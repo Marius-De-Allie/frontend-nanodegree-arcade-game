@@ -46,7 +46,7 @@ class Hero {
     if (input === 'left' && this.x > 0) { //check player is within left boundary
       this.x -= 101;
     }
-    else if (input === 'up' && this.y > 83) { //check player is within upper
+    else if (input === 'up' && this.y > 0) { //check player is within upper
       this.y -= 83;                           //boundary
     }
     else if (input === 'right' && this.x < 404) { //check player is within right
