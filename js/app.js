@@ -72,7 +72,7 @@ class Hero {
           this.reset(); // call reset method on player if collision occurs
         }
     }
-    if(this.y === 55) { // check player's y coordinate for game win condition
+    if(this.y === -28) { // check player's y coordinate for game win condition
       this.win = true; // set player win property value to true
     }
   }
