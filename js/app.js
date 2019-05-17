@@ -1,3 +1,4 @@
+'use strict';
 // Enemies our player must avoid
 function Enemy(x, y, speed) { //Enemy constructor function declaration
     this.x = x;
